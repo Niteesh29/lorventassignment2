@@ -279,7 +279,7 @@ html
 {
     width: 50%;
     margin: auto;
-    margin-left:5px;
+    padding:10px;
 }
 .thirdSection .button
 {
@@ -314,7 +314,7 @@ html
     {
         width: 50%;
         margin:auto;
-          margin-left:5px;
+          padding:10px;
         
     }
     .bgimg
