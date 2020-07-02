@@ -230,22 +230,26 @@ html
     {
         flex-direction: column;
         margin: auto;
+        width:50%
         
     }
     .divOne .divSecondHalf
     {
         flex-direction: column;
         margin: auto;
+          width:50%
     }
     .divTwo .divFirstHalf
     {
         flex-direction: column;
         margin: auto;
+          width:50%
     }
     .divTwo .divSecondHalf
     {
         flex-direction: column;
         margin: auto;
+          width:50%
     }
     .thirdSection .button
     {
