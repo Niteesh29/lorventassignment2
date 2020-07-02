@@ -1,0 +1,326 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.bgimg
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/backgroundHeader.jpg) ;
+   
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+}
+ .container header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.brand
+{
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 20px;
+    color: #f2f2f2;
+    font-weight: 300;
+}
+.first
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-list
+{
+    list-style: none;
+}
+.nav-list li
+{
+    display: inline-block;
+    
+}
+.nav-list li a 
+{
+    color:  #f2f2f2;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 300;
+} 
+.nav-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .company-name
+ {
+     text-align: center;
+     color: white
+ }
+ .tagLine
+ {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 20px;
+ }
+.nav-content  .btn
+ {    
+     margin-left: 255px;
+  
+     color: white;
+     background-color: #ff002b;
+ }
+ .topBtn
+ {
+     position: fixed;
+     top: 40px;
+     bottom: 40px;
+     font-size: 22px;
+     width: 50px;
+     height: 50px;
+     background:  #ff002b;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+ .firstSection
+ {
+     
+     display: flex;
+     width: 80%;
+     margin: auto;
+ }
+ .firstHalf
+ {
+     width: 50%;
+
+ }
+ .secondHalf
+ {
+    width: 50%;
+ }
+ .firstHalf .subTitle
+ {
+    color: #8c8c8c;
+    font-size: 18px;
+ }
+ .secondHalf .content
+ {
+     font-size: 18px;
+     color: #8c8c8c;
+ }
+ .text-center
+ {
+     margin-left: 300px;
+ }
+  
+ .divOne
+ {
+     display: flex;
+    width: 80%;
+    margin-left: 100px;
+ }
+ 
+ .divTwo
+ {
+     display: flex;
+     width: 80%;
+     margin-left: 100px;
+ }
+ .round-img
+ {
+     border-radius: 50%;
+     padding: 15px;
+ }
+ .divOne .divFirstHalf
+ {
+     width: 50%;
+     display: flex;
+     
+ }
+ .divOne .divSecondHalf
+ {
+     width: 50%;
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ .divTwo .divFirstHalf
+ {
+     width: 50%;
+     display: flex;
+ }
+ .divTwo .divSecondHalf
+ {
+    display: flex;
+     width: 50%;
+     flex-direction: row-reverse;
+ }
+
+ .thirdSection
+ {
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/backgroundFooter.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+ }
+ 
+ .thirdSection .button
+ {
+     color: white;
+     margin-left: 600px;
+     background-color: #ff002b; 
+     padding: 8px;
+     border: 1px solid gray;
+     border-radius: 4px;
+ }
+ .thirdSectionDiv
+ {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ 
+.icons
+{
+    margin-left: 450px;
+}
+.icons  .fa
+{
+    font-size: 30px;
+    margin-left: 80px;
+}
+.details
+{
+    margin-left: 65px;
+    color: #8c8c8c;
+    font-size: 20px;
+}
+@media only screen and (max-width:730px)
+{
+   
+   
+    .divOne
+    {
+      flex-direction: column;
+      margin: auto;
+    }
+    
+    .divTwo
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .round-img
+    {
+       margin: auto;
+    }
+    .divOne .divFirstHalf
+    {
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .divOne .divSecondHalf
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .divTwo .divFirstHalf
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .divTwo .divSecondHalf
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .thirdSection .button
+    {
+        margin-left: 300px;
+    }
+  
+.icons
+{
+    margin-left: 225px;
+}
+.icons  .fa
+{
+   
+    margin-left: 40px;
+}
+.details
+{
+    margin: auto;
+    
+}
+ 
+
+}
+@media only screen and (max-width:657px)
+{
+.tagLine
+{
+    width: 80%;
+    margin: auto;
+}
+.thirdSection .button
+{
+    margin-left: 160px;
+}
+.icons
+{
+    margin-left: 110px;
+}
+.icons  .fa
+{
+   
+    margin-left: 28px;
+}
+.bgimg
+{
+    margin-left: 20px;
+}
+.jumbotron
+{
+    margin-left: 25px;
+}
+.thirdSection
+{
+    margin-left: 25px;
+}
+
+}
+@media only screen and (max-width:459px)
+{
+    .tagLine
+    {
+        width: 50%;
+    }
+    .bgimg
+{
+    margin-left: 20px;
+}
+.jumbotron
+{
+    margin-left: 25px;
+}
+.thirdSection
+{
+    margin-left: 25px;
+}
+}
+ 
+ 
