@@ -273,7 +273,7 @@ html
 {
 .tagLine
 {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 .thirdSection .button
@@ -308,6 +308,7 @@ html
     .tagLine
     {
         width: 50%;
+        margin-left:5px
     }
     .bgimg
 {
